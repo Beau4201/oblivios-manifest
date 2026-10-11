@@ -2,8 +2,8 @@
 
 This directory does **not** hold patch content. Per the design at
 `sovereignos-foundation/docs/superpowers/specs/2026-08-25-aegisos-source-patch-tracking-design.md`,
-patch bytes live in `sovereignos-platform` (or, for non-AOSP infra like the
-sign-vm's Caddy DNS plugin, `sovereignos-foundation/tools/`); duplicating them
+patch bytes live in `sovereignos-platform` (non-AOSP infrastructure tooling is
+kept elsewhere); duplicating them
 here would immediately drift. This file is a pointer index only — one row
 per known SovereignOS overlay, kept in sync manually whenever a new one is
 exported.
