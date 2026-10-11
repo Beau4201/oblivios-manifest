@@ -1,5 +1,5 @@
 SovereignOS manifest
-Copyright 2026 The SovereignOS authors
+Copyright 2026 Beau ten Berge
 
 LICENCE
 
@@ -19,3 +19,9 @@ The manifests name upstream projects and pin their revisions. They contain no
 upstream source code. Each upstream project keeps its own licence. The licences
 of the projects that the SovereignOS patches modify are listed in the NOTICE of
 sovereignos-platform.
+
+TRADEMARKS
+
+The name SovereignOS and its logo are not licensed; section 6 of the Apache
+License grants no right to use them. This project is not affiliated with
+GrapheneOS, Google, or any other product that uses a similar name.
