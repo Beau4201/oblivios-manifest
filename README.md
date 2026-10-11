@@ -10,7 +10,7 @@ each baseline was chosen.
   `platform_manifest` at the commit of the GrapheneOS tag `<tag>`, byte for
   byte. It lists every upstream project with the revision to check out.
 - `provenance/<tag>.md` records for each baseline the tag, the commit it
-  resolves to, the signature check of the tag, the hashes of the manifest, and
+  resolves to, the signature check of the tag, the hash of the manifest copy, and
   what was built and verified from it.
 - `overlays/README.md` is an index of the patch packages in
   `sovereignos-platform`.
@@ -19,8 +19,8 @@ each baseline was chosen.
 
 The manifest is only a copy. Check it against upstream: resolve the tag in
 `https://github.com/GrapheneOS/platform_manifest`, verify the tag signature with
-the allowed signers that GrapheneOS publishes, and compare the SHA-256 of
-`default.xml` at that commit with the one in `provenance/<tag>.md`.
+the allowed signers that GrapheneOS publishes, and compare `default.xml` at that commit with the copy in `manifest/`, whose SHA-256
+is recorded in `provenance/<tag>.md`.
 
 ## Stage
 
