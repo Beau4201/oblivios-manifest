@@ -9,7 +9,7 @@ each baseline was chosen.
 - `manifest/upstream-<tag>.xml` is `default.xml` of the GrapheneOS repository
   `platform_manifest` at the commit of the GrapheneOS tag `<tag>`, byte for
   byte. It lists every upstream project with the revision to check out.
-- `provenance/<tag>.md` records for each baseline the tag, the commit it
+- `provenance/<tag or build number>.md` records for each baseline or build the tag, the commit it
   resolves to, the signature check of the tag, the hash of the manifest copy, and
   what was built and verified from it.
 - `overlays/README.md` is an index of the patch packages in
