@@ -3,10 +3,19 @@ Copyright 2026 The SovereignOS authors
 
 LICENCE
 
-The manifest files, overlays and provenance records in this repository are
-licensed under the Apache License, Version 2.0 (see LICENSE).
+The overlays and the provenance records in this repository are licensed under
+the Apache License, Version 2.0 (see LICENSE).
 
-The manifests only name upstream projects and pin their revisions. They contain
-no upstream source code. Each upstream project keeps its own licence. The
-licences of the projects that the SovereignOS patches modify are listed in the
-NOTICE of sovereignos-platform.
+EXCEPTION
+
+manifest/upstream-*.xml are byte-for-byte copies of default.xml of the
+GrapheneOS repository platform_manifest at the tagged commit named in the
+matching provenance record. They are not SovereignOS work and are not
+relicensed. That repository has no licence file at the commit pinned for
+2026091900 (checked 2026-10-11). The copies carry no header, because the
+provenance records rely on them being identical to upstream.
+
+The manifests name upstream projects and pin their revisions. They contain no
+upstream source code. Each upstream project keeps its own licence. The licences
+of the projects that the SovereignOS patches modify are listed in the NOTICE of
+sovereignos-platform.
