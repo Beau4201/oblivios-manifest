@@ -1,0 +1,12 @@
+SovereignOS manifest
+Copyright 2026 The SovereignOS authors
+
+LICENCE
+
+The manifest files, overlays and provenance records in this repository are
+licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The manifests only name upstream projects and pin their revisions. They contain
+no upstream source code. Each upstream project keeps its own licence. The
+licences of the projects that the SovereignOS patches modify are listed in the
+NOTICE of sovereignos-platform.
