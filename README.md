@@ -1,7 +1,7 @@
-# sovereignos-manifest
+# freeholdos-manifest
 
-The pinned upstream baseline of SovereignOS: which GrapheneOS and AOSP
-revisions the patches of `sovereignos-platform` apply to, and the record of how
+The pinned upstream baseline of FreeholdOS: which GrapheneOS and AOSP
+revisions the patches of `freeholdos-platform` apply to, and the record of how
 each baseline was chosen.
 
 ## Contents
@@ -13,7 +13,7 @@ each baseline was chosen.
   resolves to, the signature check of the tag, the hash of the manifest copy, and
   what was built and verified from it.
 - `overlays/README.md` is an index of the patch packages in
-  `sovereignos-platform`.
+  `freeholdos-platform`.
 
 ## Verify a baseline
 
@@ -31,4 +31,4 @@ supported.
 
 Apache-2.0 for the overlays and the provenance records, see `LICENSE` and
 `NOTICE`. The manifest copies keep the licence of their upstream, see `NOTICE`.
-The name SovereignOS and its logo are not licensed.
+The name FreeholdOS and its logo are not licensed.
