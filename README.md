@@ -22,6 +22,12 @@ The manifest is only a copy. Check it against upstream: resolve the tag in
 the allowed signers that GrapheneOS publishes, and compare `default.xml` at that commit with the copy in `manifest/`, whose SHA-256
 is recorded in `provenance/<tag>.md`.
 
+## Unpublished records and earlier names
+
+A record cited by path in a provenance record (the foundation repository, design and plan documents) may be in a private
+repository and not published. The decisions are in the decision log of `oblivios-docs`. The project was named AegisOS,
+SovereignOS and FreeholdOS before ObliviOS (the rename is ADR-224); records written under those names keep them.
+
 ## Stage
 
 Source only. No builds, images or update service are offered, and no device is
